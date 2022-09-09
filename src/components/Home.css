@@ -1,0 +1,17 @@
+.homeContainer {
+  -webkit-overflow-scrolling: touch;
+}
+
+.categoryContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.categoryTab.active {
+  background-color: #fff;
+  color: #181818;
+  font-weight: 500;
+}
+
+.homeContainer.extraMargin {
+  margin-left: 8.5rem;
+}

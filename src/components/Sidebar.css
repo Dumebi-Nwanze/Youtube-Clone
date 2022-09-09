@@ -1,0 +1,37 @@
+.sidebarTabs::-webkit-scrollbar {
+  width: 8.5px;
+}
+
+.sidebarTabs::-webkit-scrollbar-track {
+  background-color: #212121;
+}
+
+.sidebarTabs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #717171;
+}
+
+a {
+  margin-left: 5px;
+}
+
+.sidebarSection {
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebarSection.close {
+  width: 10px;
+}
+
+#miniSidebar {
+  display: none;
+}
+
+.sidebarSection.close #miniSidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarSection.close #sideBarContainer {
+  display: none;
+}

@@ -1,0 +1,6 @@
+.videoBox {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  max-width: 360px;
+}
